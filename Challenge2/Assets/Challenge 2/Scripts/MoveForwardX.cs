@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * (Kailie Otto)
+ * (Challenge 2)
+ * (included code to set dog speed, did not alter)
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
