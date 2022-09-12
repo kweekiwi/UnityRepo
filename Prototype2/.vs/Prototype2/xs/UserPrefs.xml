@@ -1,12 +1,5 @@
 ﻿<Properties StartupConfiguration="{991D930B-35E1-0AA3-EC85-40639ADFE325}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DestroyOutOfBounds.cs">
-    <Files>
-      <File FileName="Assets/Scipts/PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scipts/MoveForward.cs" Line="4" Column="39" />
-      <File FileName="Assets/Scipts/ShootPrefab.cs" Line="22" Column="43" />
-      <File FileName="Assets/Scipts/DetectCollisions.cs" Line="4" Column="47" />
-      <File FileName="Assets/DestroyOutOfBounds.cs" Line="19" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">

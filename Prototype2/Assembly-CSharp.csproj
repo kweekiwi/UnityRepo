@@ -62,9 +62,12 @@
   <ItemGroup>
     <Compile Include="Assets\Scipts\DestroyOutOfBounds.cs" />
     <Compile Include="Assets\Scipts\DetectCollisions.cs" />
+    <Compile Include="Assets\Scipts\DisplayScore.cs" />
+    <Compile Include="Assets\Scipts\HealthSystem.cs" />
     <Compile Include="Assets\Scipts\MoveForward.cs" />
     <Compile Include="Assets\Scipts\PlayerController.cs" />
     <Compile Include="Assets\Scipts\ShootPrefab.cs" />
+    <Compile Include="Assets\Scipts\SpawnManager.cs" />
     <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>/Users/kailieotto/Documents/GitHub/UnityRepo/Prototype2/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
