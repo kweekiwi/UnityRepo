@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{CF692052-FDCF-63E6-42F9-BED68345FE36}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TriggerZoneAddScore.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MoveLeft.cs" Line="15" Column="110" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="24" Column="37" />
+      <File FileName="Assets/SpawnManager.cs" Line="26" Column="4" />
+      <File FileName="Assets/RepeatBackground.cs" Line="19" Column="1" />
+      <File FileName="Assets/UIManager.cs" Line="62" Column="1" />
+      <File FileName="Assets/TriggerZoneAddScore.cs" Line="19" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Prototype3" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Prototype3" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="401f22fb-0132-403b-a74c-a90b62f67645" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
