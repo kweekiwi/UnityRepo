@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+ * (Kailie Otto)
+ * (Prototype 3)
+ * (Adds to score everytime player jumps over obstacle)
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * (Kailie Otto)
+ * (Prototype 3)
+ * (Controls spawning of obstacles)
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -28,10 +33,4 @@ public class SpawnManager : MonoBehaviour
 		}
 	}
 
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

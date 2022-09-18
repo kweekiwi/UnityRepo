@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * (Kailie Otto)
+ * (Prototype 3)
+ * (Makes background repeat endlessly)
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

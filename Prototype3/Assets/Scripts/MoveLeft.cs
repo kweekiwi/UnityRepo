@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * (Kailie Otto)
+ * (Prototype 3)
+ * (Makes obstacles and background move left, deletes obstacles out of bounds)
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
