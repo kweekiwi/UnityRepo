@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{E29ABA77-AAE8-A808-8340-0FA463EEE220}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Challenge 3/Scripts/RepeatBackgroundX.cs">
+    <Files>
+      <File FileName="Assets/Challenge 3/Scripts/RepeatBackgroundX.cs" Line="5" Column="4" />
+      <File FileName="Assets/Challenge 3/Scripts/SpawnManagerX.cs" Line="16" Column="38" />
+      <File FileName="Assets/Challenge 3/Scripts/PlayerControllerX.cs" Line="81" Column="22" />
+      <File FileName="Assets/Challenge 3/Scripts/MoveLeftX.cs" Line="22" Column="10" />
+      <File FileName="Assets/UIScore.cs" Line="16" Column="50" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Challenge3" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f4a34c2e-f9aa-4aaa-9164-ec5724ac218c" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

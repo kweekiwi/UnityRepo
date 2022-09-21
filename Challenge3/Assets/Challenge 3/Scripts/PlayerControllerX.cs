@@ -8,7 +8,11 @@ public class PlayerControllerX : MonoBehaviour
 
     public float floatForce;
     private float gravityModifier = 1.5f;
+    private bool lowEnough;
+    //Vector3 m_NewForce = new Vector3(0.0f, 10.0f, 0.0f);
     private Rigidbody playerRb;
+
+    private UIScore uIScore;
 
     public ParticleSystem explosionParticle;
     public ParticleSystem fireworksParticle;
@@ -16,16 +20,24 @@ public class PlayerControllerX : MonoBehaviour
     private AudioSource playerAudio;
     public AudioClip moneySound;
     public AudioClip explodeSound;
+    public AudioClip bounce;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        //set ref to rigid body
+        playerRb = GetComponent<Rigidbody>();
+
         Physics.gravity *= gravityModifier;
         playerAudio = GetComponent<AudioSource>();
 
+        lowEnough = true;
+
         // Apply a small upward force at the start of the game
         playerRb.AddForce(Vector3.up * 5, ForceMode.Impulse);
+
+        uIScore = GameObject.FindGameObjectWithTag("UI").GetComponent<UIScore>();
 
     }
 
@@ -35,7 +47,17 @@ public class PlayerControllerX : MonoBehaviour
         // While space is pressed and player is low enough, float up
         if (Input.GetKey(KeyCode.Space) && !gameOver)
         {
-            playerRb.AddForce(Vector3.up * floatForce);
+            if (transform.position.y > 15)
+            {
+                lowEnough = false;
+                Debug.Log("cant jump");
+            }
+            else
+            {
+                lowEnough = true;
+                playerRb.AddForce(Vector3.up * floatForce);
+                Debug.Log("jump");
+            }
         }
     }
 
@@ -56,8 +78,16 @@ public class PlayerControllerX : MonoBehaviour
         {
             fireworksParticle.Play();
             playerAudio.PlayOneShot(moneySound, 1.0f);
+            uIScore.score++;
             Destroy(other.gameObject);
 
+        }
+        //if the balloon hits ground, upward impulse
+        else if (other.gameObject.CompareTag("Ground"))
+        {
+            Debug.Log("Hit ground");
+            playerRb.AddForce(Vector3.up * 5, ForceMode.Impulse);
+            playerAudio.PlayOneShot(bounce, 1.0f);
         }
 
     }
