@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * (Kailie Otto)
+ * (Challenge 3)
+ * (controls player movement, collisions, adds to score, sets gameover, plays sounds and particles)
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,7 +14,6 @@ public class PlayerControllerX : MonoBehaviour
     public float floatForce;
     private float gravityModifier = 1.5f;
     private bool lowEnough;
-    //Vector3 m_NewForce = new Vector3(0.0f, 10.0f, 0.0f);
     private Rigidbody playerRb;
 
     private UIScore uIScore;
@@ -83,9 +87,9 @@ public class PlayerControllerX : MonoBehaviour
 
         }
         //if the balloon hits ground, upward impulse
-        else if (other.gameObject.CompareTag("Ground"))
+        else if (other.gameObject.CompareTag("Ground") && !gameOver)
         {
-            Debug.Log("Hit ground");
+            //Debug.Log("Hit ground");
             playerRb.AddForce(Vector3.up * 5, ForceMode.Impulse);
             playerAudio.PlayOneShot(bounce, 1.0f);
         }

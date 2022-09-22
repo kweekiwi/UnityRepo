@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * (Kailie Otto)
+ * (Challenge 3)
+ * (Controls spawning of objects/obstacles)
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

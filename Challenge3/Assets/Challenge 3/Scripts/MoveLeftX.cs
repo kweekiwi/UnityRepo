@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * (Kailie Otto)
+ * (Challenge 3)
+ * (Moves the objects and baground to the left)
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

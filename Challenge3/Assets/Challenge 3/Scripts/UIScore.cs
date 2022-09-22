@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * (Kailie Otto)
+ * (Challenge 3)
+ * (Keeps track of score, sets UI elements, has the loss/win conditions, and the ability to restart the game)
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -39,7 +44,7 @@ public class UIScore : MonoBehaviour
 		//loss condition: Hit obstacle
 		if (playerControllerScript.gameOver && !won)
 		{
-			scoreText.text = "You lose!Press R to try again!";
+			scoreText.text = "You lose! Press R to try again!";
 			}
 
 		//win condition: 15 points
@@ -55,6 +60,9 @@ public class UIScore : MonoBehaviour
 		//Press R to restart if game over
 		if (playerControllerScript.gameOver && Input.GetKeyDown(KeyCode.R))
 		{
+            //reset gravity everytime the scene restarts, otherwise the value continues to change each time
+            Physics.gravity /= 1.5f;
+
 			SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 		}
 	}
