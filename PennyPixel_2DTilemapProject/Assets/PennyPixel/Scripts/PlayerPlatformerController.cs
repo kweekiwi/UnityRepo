@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * (Kailie Otto)
+ * (Assignment 5A)
+ * (Controls player moves, jumping)
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -49,6 +54,7 @@ public class PlayerPlatformerController : PhysicsObject {
 
         animator.SetBool ("grounded", grounded);
         animator.SetFloat ("velocityX", Mathf.Abs (velocity.x) / maxSpeed);
+        animator.SetFloat("velocityY", velocity.y);//added with video
 
         targetVelocity = move * maxSpeed;
     }
