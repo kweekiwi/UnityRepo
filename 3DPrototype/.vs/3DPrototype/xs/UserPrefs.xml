@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{121CF5BD-6566-3798-9DE4-0C3CF62AC71A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MyFirstPersonPlayer/Scripts/Target.cs">
+    <Files>
+      <File FileName="Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/MyFirstPersonPlayer/Scripts/MouseLook.cs" Line="4" Column="47" />
+      <File FileName="Assets/MyFirstPersonPlayer/Scripts/PlayerMovement.cs" Line="4" Column="56" />
+      <File FileName="Assets/MyFirstPersonPlayer/Scripts/ShootWithRaycasts.cs" Line="29" Column="90" />
+      <File FileName="Assets/MyFirstPersonPlayer/Scripts/Target.cs" Line="7" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="3DPrototype" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3f5a2450-856c-435b-83c8-297d7f5b3a59" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
