@@ -130,6 +130,8 @@
     <Compile Include="Assets\CollectableGem\Scripts\Score.cs" />
     <Compile Include="Assets\Fox\Scripts\ScoreDisplay.cs" />
     <Compile Include="Assets\Fox\Scripts\Win.cs" />
+    <Compile Include="Assets\immunity.cs" />
+    <Compile Include="Assets\mushPower.cs" />
     <Compile Include="Assets\PennyPixel\Scripts\PhysicsObject.cs" />
     <Compile Include="Assets\PennyPixel\Scripts\PlayerPlatformerController.cs" />
     <None Include="Assets\Add-Ons\2D Extras\Brushes\Tint Brush Smooth\Shaders\TintedTilemap.shader" />

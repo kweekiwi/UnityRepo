@@ -15,11 +15,17 @@ public class PlayerPlatformerController : PhysicsObject {
     private SpriteRenderer spriteRenderer;
     private Animator animator;
 
+    //add
+    public bool invincible;
+
+
     // Use this for initialization
     void Awake () 
     {
         spriteRenderer = GetComponent<SpriteRenderer> (); 
         animator = GetComponent<Animator> ();
+        //add
+        invincible = false;
     }
 
     protected override void ComputeVelocity()
@@ -58,4 +64,13 @@ public class PlayerPlatformerController : PhysicsObject {
 
         targetVelocity = move * maxSpeed;
     }
+
+    //add
+    /*void Update()
+    {
+        while (invincible)
+        {
+
+        }
+    }*/
 }
