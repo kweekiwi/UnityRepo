@@ -1,11 +1,18 @@
-﻿using System.Collections;
+﻿/*
+ * (Kailie Otto)
+ * (Assignment 6)
+ * (used for loading and unloading the multiple scenes, pausing and unpausing)
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager: Singleton<GameManager>
 {
-    public int score = 0;
+    //OLD score
+    //public int score = 0;
+
     public GameObject pauseMenu;
 
     //keeps track of what level we are on

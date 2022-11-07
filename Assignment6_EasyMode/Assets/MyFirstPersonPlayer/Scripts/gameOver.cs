@@ -1,7 +1,7 @@
 ﻿/*
  * (Kailie Otto)
- * (3D prototype)
- * (displays game over when player gets to the end)
+ * (3D prototype, assignment 6)
+ * (displays game over when player gets to the end, no changes since 3d prototype)
  */
 
 using System.Collections;

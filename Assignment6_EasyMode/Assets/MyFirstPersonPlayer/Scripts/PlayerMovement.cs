@@ -1,7 +1,7 @@
 ﻿/*
  * (Kailie Otto)
- * (3D prototype)
- * (allows player to move, contains gravity and jumping)
+ * (3D prototype, assignment 6)
+ * (allows player to move, contains gravity and jumping, no chances since 3D prototype)
  */
 
 using System.Collections;

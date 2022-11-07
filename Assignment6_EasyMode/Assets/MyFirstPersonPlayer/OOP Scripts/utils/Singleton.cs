@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * (Kailie Otto)
+ * (Assignment 6)
+ * (Singleton for instances, used to make GameManager a singleton)
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

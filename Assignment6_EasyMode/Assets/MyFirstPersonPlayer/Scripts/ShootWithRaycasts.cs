@@ -1,7 +1,7 @@
 ﻿/*
  * (Kailie Otto)
- * (3D prototype)
- * (raycasting to fire projectiles, flash for shooting)
+ * (3D prototype, assignment 6)
+ * (raycasting to fire projectiles, flash for shooting, has not changed since 3D prototype)
  */
 
 using System.Collections;

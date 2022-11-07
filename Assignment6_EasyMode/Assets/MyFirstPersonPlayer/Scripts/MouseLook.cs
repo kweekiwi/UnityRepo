@@ -1,7 +1,7 @@
 ﻿/*
  * (Kailie Otto)
- * (3D prototype)
- * (Allows player to look around, locks cursor)
+ * (3D prototype, assignment 6)
+ * (Allows player to look around, locks cursor, no changes since 3D prototype)
  */
 
 using System.Collections;
@@ -15,7 +15,11 @@ public class MouseLook : MonoBehaviour
 	public GameObject player;
 	private float verticalLookRotation = 0f;
 
-	private void OnApplicationFocus(bool focus)
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    private void OnApplicationFocus(bool focus)
 	{
 		Cursor.lockState = CursorLockMode.Locked;
 	}
