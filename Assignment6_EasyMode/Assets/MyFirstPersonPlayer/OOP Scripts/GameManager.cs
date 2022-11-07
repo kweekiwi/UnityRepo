@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager: Singleton<GameManager>
 {
     public int score = 0;
+    public GameObject pauseMenu;
 
     //keeps track of what level we are on
     private string CurrentLevelName = string.Empty;
@@ -51,4 +52,36 @@ public class GameManager: Singleton<GameManager>
         }
     }
 
+    public void UnloadCurrentLevel()
+    {
+        AsyncOperation ao = SceneManager.UnloadSceneAsync(CurrentLevelName);
+
+        if (ao == null)
+        {
+            Debug.LogError("[GameManager] Unable to unload level" + CurrentLevelName);
+            return;
+        }
+    }
+
+    //pausing and unpausing
+    public void Pause()
+    {
+        Time.timeScale = 0f;
+        pauseMenu.SetActive(true);
+    }
+
+    public void Unpause()
+    {
+        Time.timeScale = 0f;
+        pauseMenu.SetActive(false);
+    }
+
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            Pause();
+        }
+    }
 }
