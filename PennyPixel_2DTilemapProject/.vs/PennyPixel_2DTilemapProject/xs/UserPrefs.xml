@@ -1,34 +1,38 @@
-﻿<Properties StartupConfiguration="{2024A824-0F4A-AADC-72AE-779D50192A32}|">
+﻿<Properties>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5e602c6a-cfe8-4d01-abd1-aca0c194b9d7" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/immunity.cs">
     <Files>
-      <File FileName="Assets/PennyPixel/Scripts/PlayerPlatformerController.cs" Line="71" Column="14" />
-      <File FileName="Assets/mushPower.cs" Line="8" Column="1" />
-      <File FileName="Assets/immunity.cs" Line="32" Column="53" />
+      <File FileName="Assets/PennyPixel/Scripts/PlayerPlatformerController.cs" Line="85" Column="39" />
+      <File FileName="Assets/mushPower.cs" Line="33" Column="1" />
+      <File FileName="Assets/immunity.cs" Line="37" Column="49" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PennyPixel_2DTilemapProject" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="CollectableGem" expanded="True">
-                <Node name="Scripts" expanded="True" />
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Assets" expanded="True">
+                <Node name="PennyPixel" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+                <Node name="immunity.cs" selected="True" />
               </Node>
-              <Node name="Fox" expanded="True">
-                <Node name="Scripts" expanded="True" />
-              </Node>
-              <Node name="PennyPixel" expanded="True">
-                <Node name="Scripts" expanded="True" />
-              </Node>
-              <Node name="immunity.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="PennyPixel_2DTilemapProject" expanded="True" selected="True" />
+        </State>
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5e602c6a-cfe8-4d01-abd1-aca0c194b9d7" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -34,6 +34,7 @@ public class immunity : MonoBehaviour
         playerPlatformerControllerScript.invincible = true;
         Destroy(GetComponent<SpriteRenderer>());
         Destroy(GetComponent<BoxCollider2D>());
+        Debug.Log("Invincible for 10 seconds!");
         yield return new WaitForSeconds(waitTime);
         playerPlatformerControllerScript.invincible = false;
         Destroy(gameObject);

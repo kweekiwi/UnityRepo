@@ -34,8 +34,12 @@ public class mushPower : MonoBehaviour
     private IEnumerator WaitAndPrint(float waitTime)
     {
         playerPlatformerControllerScript.maxSpeed += 5;
+        //for the time one, here I would ++ time in the timer script
+        //instead of max speed increase, but destroys would be the same
+        //won't need wait for seconds so coroutine is unnecessary yay
         Destroy(GetComponent<SpriteRenderer>());
         Destroy(GetComponent<BoxCollider2D>());
+        Debug.Log("Speed boast for 10 seconds!");
         yield return new WaitForSeconds(waitTime);
         playerPlatformerControllerScript.maxSpeed -= 5;
         Destroy(gameObject);
