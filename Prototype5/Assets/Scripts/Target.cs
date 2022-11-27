@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * (Kailie)
+ * (prototype5)
+ * (controls where, the rotation force, the upwards force for the good and bad objects
+ * Also controls them being clicked with particles and failing sets a gameover)
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

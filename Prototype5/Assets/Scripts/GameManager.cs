@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * (Kailie)
+ * (prototype5)
+ * (Controls object spawning, title screen, game over/restarting, updates score)
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;

@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * (Kailie)
+ * (prototype5)
+ * (Allows player to set difficulty of spawn rate, then starts game)
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
