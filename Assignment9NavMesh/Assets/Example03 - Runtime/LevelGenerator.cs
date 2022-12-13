@@ -1,4 +1,10 @@
+/*
+ * (Kailie Otto)
+ * (Assignment 9 Nav Mesh)
+ * (Code to gnerate levels, added navmesh being created in start)
+ */
 using UnityEngine;
+using UnityEngine.AI;
 
 public class LevelGenerator : MonoBehaviour {
 
@@ -10,9 +16,12 @@ public class LevelGenerator : MonoBehaviour {
 
 	private bool playerSpawned = false;
 
+	public NavMeshSurface surface;
+
 	// Use this for initialization
 	void Start () {
 		GenerateLevel();
+		surface.BuildNavMesh();
 	}
 	
 	// Create a grid based level
